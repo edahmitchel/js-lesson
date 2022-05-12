@@ -38,3 +38,14 @@ switch (x) {
     default:
         alert("Pass")
 }
+
+// const smallerFunction = (a) => largerFunction(a/2);
+
+// const largerFunction = (a) => a/4;
+
+// console.log(smallerFunction(16));
+
+const smallerFunction = (a) => a*2;
+const largerFunction = (a, callBack) => callBack(a)/2;
+
+console.log(16, smallerFunction);
