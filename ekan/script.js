@@ -36,7 +36,7 @@ switch (x) {
         alert("Third Class");
 
     default:
-        alert("Pass")s
+        alert("Pass")
 }
 
 // const smallerFunction = (a) => largerFunction(a/2);
