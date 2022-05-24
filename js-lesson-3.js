@@ -24,10 +24,10 @@
 //  sum2 = 5
 //   sum4 = 78
 // let number = 2
-let str = +"5"
+// let str = +"5"
 // let convertedStr = Number(str)
 // let convertedNumber = String(number)
-console.log(str)
+// console.log(str)
 // operators
 // // math
 // console.log( 20 + 2)
@@ -36,3 +36,105 @@ console.log(str)
 // console.log( "20" - "2")
 // let mod = 5%2
 // console.log(mod)
+// let n=3
+// console.log(n= n+1)
+// console.log(++n)
+// console.log(n+=1)
+// console.log(22!="22")
+// console.log(22!=="22")
+// console.log("22"!=="22")
+// console.log("22"!="22")
+// console.log(22 > "22")
+// console.log("22">22)
+// console.log(22 <="22")
+// console.log(22!==="22")
+
+// let x = prompt("input x")
+// if(x>2){
+//     console.log("x is greater")
+
+// }
+// else if(x==2){
+// console.log("x is equal")
+// }
+
+// else{
+//     console.log("x is less than")
+// }
+
+// x>2?console.log("x is greater"):
+// x==2?console.log("x is equal to"):console.log("x is less than")
+// let Name = "blessing"
+// let age = 7
+// if(Name !=="bles"){
+//     console.log("Correct")
+// }
+// for (let age = 0; age<=100; age+=2) {
+//     console.log(`iniabasi is ${age} old `)
+    
+// }
+// let age = 30
+// while (age>0) {
+//     age--
+//     console.log(`iniabasi is ${age} old `)
+    
+    
+// }
+
+// do {age--
+//     console.log(`iniabasi is ${age} old `)
+    
+// } while (age>0);
+// let colour = prompt("input color");
+
+// switch (colour) {
+//   case "red":
+//     alert( 'This is red' );
+//     break;
+//   case "yellow":
+//     alert( 'this is yellow' );
+//     break;
+//   case "black":
+//     alert( 'This is black' );
+//     break;
+//   default:
+//     alert( "I don't know such values" );}
+
+
+// function con(arg){
+//     console.log(arg)
+
+// }
+
+
+// let b = "today"
+// let a = "hello"
+
+// con(b+a)
+
+
+
+// let a = 1
+// let b = 2
+
+// // function sum(){
+// //     console.lg(a+b)
+// // }
+
+// // sum()
+// function increment(){
+//     a++
+// }
+// console.log(`first ${a}`)
+// increment()
+// console.log(a)
+
+
+function sum (fisrtnumber, Secondnumber){
+
+    return fisrtnumber+Secondnumber
+}
+
+let add = 1+sum(20,4)
+console.log(`this is add ${add}`)
+

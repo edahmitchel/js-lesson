@@ -118,17 +118,114 @@
 // console.log(n)
 // n=6
 // console.log(n)
-let ememIsAlive=1
+// let ememIsAlive=1
 
-do {
-console.log("eat")
-console.log("eme is"+ ememIsAlive)
+// do {
+// console.log("eat")
+// console.log("eme is"+ ememIsAlive)
 
-}
-while(ememIsAlive)
+// }
+// while(ememIsAlive)
 // let emem = 0;
 // do {
 //   alert( "emem" );
 //   console.log(emem)
 //   emem++;
 // } while (emem>3);
+// let trainees = {
+//     trainee1:{
+//         name:"emem",
+//         age:2
+//     }
+//     ,
+//     trainee2:{
+//         name:"Text",
+//         age:6
+//     }
+// }
+// trainees.trainee1.gender = "female"
+// console.log(trainees)
+
+
+// const votingsystem = {
+//     voted:[],
+//     parties:{
+//         apc:0,
+//         pdp:0,
+//         apga:0
+//     }
+
+// }
+
+
+
+// // function voting (){
+// //     // queryselect and get user info 
+// //     let user1={
+// //         name:"",
+// //         ward:"",
+// //         // votingfor:""
+    
+// //     }
+// //     // querselect and get party
+
+//     votingsystem.voters.parties[`query selected info`]=+1
+
+
+
+
+
+
+// }
+// voting()
+// let domnode = document.querySelector("#inp")
+// console.log(domnode)
+// let domnode2 = document.querySelector(".divv")
+// domnode2.innerHTML="<div> hello this is a div</div>"
+// console.log(domnode2)
+// let a = 3;
+
+// switch (a) {
+//   case 3:
+//     alert( 'Too small' );
+//     break;
+//   case 4:
+//     alert( 'Exactly!' );
+//     break;
+//   case 5:
+//     alert( 'Too big' );
+//     break;
+//   default:
+//     alert( "I don't know such values" );}
+// let a=5
+// let b=6
+// let summatiom = 0
+// function sum(){
+//     summatiom = a+b
+// }
+// sum()
+// let inc = 0
+// function increment(){
+//     inc++
+
+// }
+// increment()
+// increment()
+// console.log(inc)
+// function sum(a,b){
+//     console.log(a+b)
+//     return a+b
+//             }
+//             console.log(sum(4,5))
+//             const summatiom = 6+4 
+//             console
+
+
+
+//  const sum = (a,b) => a+b
+//  console.log(sum(2,6))            
+// console.log(summatiom)
+// console.log("22"==22)
+// console.log("22"===22)
+// console.log("22"==="22")
+// console.log(22===22)
