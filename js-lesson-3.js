@@ -1,4 +1,7 @@
 "use strict"
+function con(data){
+    console.log(data)
+}
 // let Name
 // Name = "iniabasi"
 // let age = 345
@@ -48,7 +51,7 @@
 // console.log("22">22)
 // console.log(22 <="22")
 // console.log(22!==="22")
-
+// /home/user/Desktop/react apps/js-lesson/index.html
 // let x = prompt("input x")
 // if(x>2){
 //     console.log("x is greater")
@@ -130,11 +133,32 @@
 // console.log(a)
 
 
-function sum (fisrtnumber, Secondnumber){
+// function sum (fisrtnumber, Secondnumber){
 
-    return fisrtnumber+Secondnumber
-}
+//     return fisrtnumber+Secondnumber
+// }
 
-let add = 1+sum(20,4)
-console.log(`this is add ${add}`)
+// let add = 1+sum(20,4)
+// console.log(`this is add ${add}`)
+
+// let Name = "dami"
+// con(Name.length)
+// let upperName = Name.toUpperCase()
+// con(upperName)
+// let strfrUITS = "Ap,ple,Banana,Kiwi,orange";
+// let part = str.slice(-5,-1);
+// con(part)
+// let str = "my name is dami"
+// let newStr = str.replace("dami","douglas")
+// let str1 = "dami"
+// let str2 = "iniabasi"
+// let str3 = str1.concat(" ",str2)
+// con(str3)
+// const cat=(str1,str2)=>str1+" "+str2
+// con(cat("blessing","douglas"))
+let str = "botteca"
+let strArr = str.split("")
+let arrFruits = strfrUITS.split("a")
+con(strArr)
+con(arrFruits)
 
