@@ -116,9 +116,26 @@
 // console.log(JSON.parse(stringifiedData))
 
 
+// merged with lesson 2
+
+// string method
+
+// let Name ="emem"
+// console.log(name.toUpperCase())
+// console.log(Name.length)
 
 
 
 
+// slice()
+// let str = "Apple, Banana, Kiwi";
+// let part = str.slice(-12)
+// console.log(part)
 
+// replace
 
+// let text = "my name is emem Abang Abang!";
+// let newText = text.replace("abang", "edet");
+// console.log(newText)
+
+// function replaceString(text,stingtoreplace,replacementsttring) 
