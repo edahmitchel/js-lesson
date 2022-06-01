@@ -81,7 +81,7 @@
 
  var rootHub = {
    trainer:{
-     name:'mitchell',
+     name:' mitchell',
      age:6,
      position:'boss',
      height: 6.5 ,
@@ -117,7 +117,7 @@
       slills:['HTML','CSS','JAVESCRIPT','FARMING','SLEEPING']
    },
 trainee4:{
-     name:'chisom',
+     name:' chisom',
      age:10,
      position:'learner',
      height: 3 ,
@@ -126,7 +126,7 @@ trainee4:{
       slills:['HTML','CSS','JAVESCRIPT','JAVA','C++']
    },
    trainee5:{
-     name:'ROSE',
+     name:' ROSE',
      age:10,
      position:'HR',
      height: 3 ,
@@ -172,15 +172,53 @@ trainee8:{
    },
  }
 
+// let getValue = prompt("What do you want to search for");
+// for (let y in rootHub) {
+//     // let y = x.name
+//     let x = rootHub[x].y
+//   if (getValue == y){
+//         console.log("The " + x + "has age of " + y)
+//     }
+// }
 
- i = 0;
-for ( var Personeel in rootHub){
- // console.log(rootHub[Personeel])
-var people = rootHub[Personeel]
-if (people === 'java'){
-console.log('user found ')
-}else{
-  console.log('not found')
-}
+//  i = 0;
+// for ( var Personeel in rootHub){
+//  // console.log(rootHub[Personeel])
+// var people = rootHub[Personeel]
+// if (people === 'java'){
+// console.log('user found ')
+// }else{
+//   console.log('not found')
+// }
+
+// }
+
+//  let getValue = prompt("search for a name ");
+ 
+
+for(user in rootHub){
+  let currentuser = (rootHub[user].age)
+  let displayname = (rootHub[user].name)
+  console.log(currentuser)
+  console.log(displayname)
+  
+
+// //   if (currentuser === getValue ){
+// //     document.write(user,':',rootHub[user].name)
+// //        console.log(user,':',rootHub[user].name)
+       
+// //   // } else{
+// //   //   console.log('not here')
+    
+// //   }
+
+// // // 
+ 
+
+// // // if ( currentuser === user ){
+// // // console.log('user found ')
+// // // }else{
+// // //    console.log('user not found') 
+// // // }
 
 }
